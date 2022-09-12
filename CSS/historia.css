@@ -1,0 +1,78 @@
+body {
+	background-color: #447357;
+}
+
+#menu {
+	background-color: #545E58;
+}
+
+img {
+	margin-top: 18vh;
+	width: 100vw;
+}
+
+body > .titulo {
+	position: absolute;
+	top: 26vh;
+	left: 10vw;
+	font-size: 6rem;
+}
+
+ul #link {
+	background-color: #FFC839;
+	color: #000;
+}
+
+div img {
+	width: 40vw;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.blocos, .blocosv2 {
+	display: flex;
+	margin-top: 5vw;
+	width: 100%;
+}
+
+.blocosv2, .blocosv2 p {
+	margin: 50px 0 30px 0;
+	background-color: #83DEA9;
+	color: #000;
+}
+
+.data {
+	margin-bottom: 20px;
+	display: flex;
+	width: 100vw;
+}
+
+
+.info {
+	width: 34vw;
+	line-height: 30px;
+}
+
+.data .texto {
+	text-align: justify;
+}
+
+.data .titulo {
+	margin-bottom: 45px;
+}
+
+.topico {
+	width: 100px;
+	height: 100px;
+	background: #FFC839;
+	box-shadow: 0px 4px 4px #00000040;
+	border-radius: 100px;
+	margin: 0 100px 0 100px;
+}
+
+.linha {
+	background-color: #FFC839;
+	width: 15px;
+	margin-left: 140.6px;
+	height: 350%;
+}

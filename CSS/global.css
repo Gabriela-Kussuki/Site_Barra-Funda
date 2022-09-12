@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display&display=swap');
+
+img {
+	width: 100vw;
+}
+
+a {
+	color: #fff;
+	transition: background-color 1s;
+}
+
+a:hover {
+	color: #ffffffab;
+}
+
+.titulo {
+	font-size: 4rem;
+	color: #fff;
+	font-family: 'DM Serif Display', serif;
+}
+
+.texto {
+	font-family: 'Arvo', serif;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+#menu {
+	display: flex;
+	background-color: #413016;
+	position: fixed;
+	top: 0;
+	height: 15vh;
+	width: 100vw;
+	z-index: 1000;
+	padding: 15px;
+}
+
+#secoes {
+	display: inline;
+	border: solid 3px #fff;
+	border-radius: 43px;
+	padding-top: 30px;
+	display: flex;
+	width: 100vw;
+	margin: 5px;
+}
+
+#secoes li {
+	list-style: none;
+	display: inline;
+}
+
+#secoes a {
+	font-family: 'Arvo', serif;
+	font-size: 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 60px;
+	margin-bottom: 1000px;
+	transition: text-decoration, color 0.3s;
+}
+
+#secoes a:hover {
+	text-decoration: underline;
+	color: #ffffffab;
+}
+
+#cultura {
+	position: relative;
+	right: 74px;
+	width: 8vw;
+	height: 16vh;
+	background-color: #FFC839;
+	border-radius: 100px;
+	transition: background-color 0.4s;
+	cursor: pointer;
+}
+
+#cultura img {
+	width: 8vw;
+	height: 10vh;
+	margin: 20px auto;
+}
+
+#cultura:hover {
+	background-color: #fff566;
+}
+

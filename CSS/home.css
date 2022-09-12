@@ -1,0 +1,136 @@
+body{
+	background-color: #545E58;
+	position: absolute;
+	z-index: -73;
+}
+
+
+#introducao > img {
+	position: absolute;
+	z-index: -100;
+	top: 0;
+}
+
+#introducao {
+	width: 100vw;
+	height: 70vh;
+}
+
+/* section {
+	position: relative;
+	z-index: 10;
+} */
+
+#titulo1 {
+	margin: 200px 60px;
+}
+
+#titulo1 div {
+	background-color: #447357;
+	width: 40vw;
+	padding: 39px 189px;
+	box-shadow: 15px 16px 31px 0px #0C0C0C;
+}
+
+#titulo1 .texto {
+	margin-top: 30px;
+	width: 50vw;
+	font-size: 2rem;
+	line-height: 40px;
+}
+
+#titulo1 .titulo {
+	font-size: 5rem;
+}
+
+/* história */
+
+#historia {
+	width: 100vw;
+	height: 180vh;
+	position: relative;
+	background-color: #447357;
+	z-index: -1000;
+}
+
+#historia img {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+#historia .titulo {
+	margin: 100px 72px 36px;
+}
+
+#historia .texto {
+	width: 50vw;
+	margin-left: 20px;
+}
+
+#info {
+	display: flex;
+}
+
+#linha {
+	background-color: #FFC839;
+	width: 1vw;
+	margin-left: 72px;
+}
+
+#historia > .texto {
+	margin: 200px auto 0 auto;
+	width: 80vw;
+	text-align: center;
+}
+
+#historia > #link-hist {
+	margin: 0 auto;
+}
+
+/* localização */
+
+#localizacao .titulo {
+	margin: 100px 0 0 88px;
+}
+
+#localizacao > img {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+#conteudo > img{
+	width: 100%;
+	position: sticky;
+	z-index: -10;
+}
+
+#conteudo div {
+	background-color: #000000c0;
+	padding: 60px;
+	width: 1061px;
+	text-align: center;
+	border-radius: 54px;
+	margin: -850px auto;
+	line-height: 60px;
+}
+
+#mapa {
+	display: flex;
+}
+
+#mapa > .texto {
+	color: #000;
+	text-align: center;
+	width: 550px;
+	margin: 300px 400px 30px 200px;
+}
+
+#mapa iframe {
+	margin-top: 70px;
+	width: 587px;
+	height: 570px;
+	border-radius: 50px;
+	box-shadow: 15px 16px 31px 0px #0C0C0C;
+}
